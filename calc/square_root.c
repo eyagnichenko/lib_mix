@@ -17,7 +17,7 @@ float square_root(float a) {
 	float check_val = 0;
 
 	int iters = 0;
-	while (iters < 1000) {
+	while (iters < 100) {
 
 		guess = (left + right) / 2;
 		check_val = guess * guess - a;
