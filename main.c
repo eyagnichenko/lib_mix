@@ -47,7 +47,7 @@ int run_calculator() {
 	}
 
 	int perform_multiplication() {
-  		float a = 0;
+		float a = 0;
 		float b = 0;
 		printf("\na * b\n");
 		printf("a = ");
@@ -107,43 +107,43 @@ int run_calculator() {
 
 		switch(choise) {
 
-  			case 1:
-  				perform_addiction();
-    			break;
-
-  			case 2:
-  				perform_subtraction();
-    			break;
-
-	   		case 3:
-    		 	perform_multiplication();
+			case 1:
+				perform_addiction();
 				break;
 
-     		 case 4:
-     		 	perform_division();
-	    		break;
+			case 2:
+				perform_subtraction();
+				break;
 
-     		 case 5:
+			case 3:
+			 	perform_multiplication();
+				break;
+
+			case 4:
+				perform_division();
+				break;
+
+			case 5:
 				calculate_factorial();		 	
-    			break;
+				break;
 
-     		 case 6:
-     		 	calculate_square_root();
-	   			break;
+			case 6:
+			 	calculate_square_root();
+				break;
 
-	    	case 0:
-	    		printf("\nExit.\n");
-	    		break;
+			case 0:
+				printf("\nExit.\n");
+				break;
 
-	    	case 911:
-	    		print_select_operation_msgs();
-	    		break;
+			case 911:
+				print_select_operation_msgs();
+				break;
 
-  			default:
-  				printf("\nPlease select valid operation in range [1, 6].");
-  				printf("\nEnter 0 to exit.");
-  				printf("\nEnter 911 for help.\n");
-  				break;
+			default:
+				printf("\nPlease select valid operation in range [1, 6].");
+				printf("\nEnter 0 to exit.");
+				printf("\nEnter 911 for help.\n");
+				break;
 
 		}
 
